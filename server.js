@@ -79,7 +79,7 @@ io.on("connection", (socket) => {
     // emit welcome message event
     socket.emit("welcome-message", {
       user: "server",
-      message: `Welcome ${data.username} - FROM chinmoy `,
+      message: `Welcome ${data.username} `,
     });
   });
 
